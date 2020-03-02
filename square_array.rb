@@ -1,4 +1,4 @@
-include 'pry'
+require_relative  'pry'
 
 def square_array(array)
   array.each do |n|
