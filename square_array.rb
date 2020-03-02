@@ -1,9 +1,9 @@
 require 'pry'
 
 def square_array(array)
+  squared_array = []
   array.each do |n|
-    n = n*n
-    binding.pry
+    squared_array << n*n
   end
-  return array
+  return squared_array
 end
